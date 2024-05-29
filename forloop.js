@@ -1,5 +1,5 @@
-var a = 10;
+var a = 11;
 
-for(i=0; i<a; i++){
-    console.log("the number "+i+" is smaller than "+a);
+for(i=1; i<=a; i+=2){
+    console.log("the number "+i+" is smaller or equal to "+a);
 }
